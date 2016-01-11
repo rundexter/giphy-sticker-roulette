@@ -1,0 +1,62 @@
+{
+  "inputs": [
+    {
+      "id": "q",
+      "title": "Query",
+      "type": "string",
+      "description": "Search query term or phrase."
+    },
+    {
+      "id": "rating",
+      "title": "Rating",
+      "type": "string",
+      "description": "Limit results to those rated (y,g, pg, pg-13 or r)."
+    },
+    {
+      "id": "fmt",
+      "title": "Format",
+      "type": "html or json",
+      "description": "Return results in html or json format (useful for viewing responses as GIFs to debug/test)."
+    }
+  ],
+  "outputs": [
+    {
+      "id": "id",
+      "title": "ID"
+    },
+    {
+      "id": "url",
+      "title": "URL"
+    },
+    {
+      "id": "bitly_gif_url",
+      "title": "Bitly Gif URL"
+    },
+    {
+      "id": "embed_url",
+      "title": "Embed URL"
+    },
+    {
+      "id": "username",
+      "title": "Username"
+    },
+    {
+      "id": "rating",
+      "title": "Rating"
+    },
+    {
+      "id": "images/downsized",
+      "title": "Downsized Image"
+    },
+    {
+      "id": "images/original",
+      "title": "Original Image"
+    },
+    {
+      "id": "html",
+      "title": "HTML"
+    }
+  ],
+  "icon": "dex-giphy",
+  "title": "Giphy sticker roulette"
+}
