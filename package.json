@@ -1,13 +1,17 @@
 {
-  "name": "giphy-sticker-roulette",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "author": "Arman Yeghiazaryan",
-  "license": "ISC",
-  "private": true,
-  "dependencies": {
-    "giphy-api": "^1.1.11",
-    "lodash": "^3.10.1"
-  }
+   "name": "giphy-sticker-roulette",
+   "version": "0.0.1",
+   "description": "Returns a spotaneously selected sticker from Giphy's sticker collection",
+   "main": "index.js",
+   "author": "Run Dexter, Inc",
+   "license": "MIT",
+   "private": true,
+   "dependencies": {
+      "giphy-api": "^1.1.11",
+      "lodash": "^3.10.1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/rundexter/giphy-sticker-roulette"
+   }
 }
